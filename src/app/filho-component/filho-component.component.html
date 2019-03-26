@@ -1,0 +1,11 @@
+<p>
+  filho-component works!
+</p>
+
+<ul>
+  <li *ngFor="let f of recebeFamilia">
+    {{f.nome}} {{f.sobrenome}}
+  </li>
+</ul>
+
+<button (click)="feedback()">Emit para o Pai</button>
